@@ -1,0 +1,13 @@
+Language,Measurement,n_feedback,n_affirmation,percent_affirmation,observed_cohens_d,t_test_adequate,mw_adequate,power_assessment
+DGS_2.0_2412,length (seconds),627,91,12.674094707520892,0.36092292249145447,Yes,Yes,✅ ADEQUATE for medium
+DGS_2.0_2412,extremes amplitude,634,90,12.430939226519337,0.192505146587097,Yes,Yes,✅ ADEQUATE for medium
+DGS_2.0_2412,velocity,630,88,12.256267409470752,0.7729686470413987,Yes,Yes,✅ ADEQUATE for observed effect
+GER_2412,length (seconds),685,45,6.164383561643835,0.028196108378508552,Yes,Yes,✅ ADEQUATE for medium
+GER_2412,extremes amplitude,688,45,6.139154160982264,1.1140317281376877,Yes,Yes,✅ ADEQUATE for observed effect
+GER_2412,velocity,694,46,6.216216216216216,1.1930922261441514,Yes,Yes,✅ ADEQUATE for observed effect
+RSL_2507,length (seconds),1392,37,2.589223233030091,0.04344565314161682,Yes,Yes,✅ ADEQUATE for medium
+RSL_2507,extremes amplitude,1422,39,2.6694045174537986,0.3280517544488784,Yes,Yes,✅ ADEQUATE for medium
+RSL_2507,velocity,1400,34,2.370990237099024,0.3155902147247247,Yes,Yes,✅ ADEQUATE for medium
+RUS_2503,length (seconds),409,27,6.192660550458716,0.2776667749178968,Marginal,Yes,✅ ADEQUATE for medium
+RUS_2503,extremes amplitude,419,29,6.473214285714286,0.49533474847705766,Marginal,Yes,✅ ADEQUATE for medium
+RUS_2503,velocity,422,27,6.013363028953229,0.25863475865804053,Marginal,Yes,✅ ADEQUATE for medium

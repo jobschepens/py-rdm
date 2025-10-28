@@ -1,0 +1,18 @@
+# Python for Linguistic Data Analysis Workshop
+# Python 3.9+ required
+
+# Core data science libraries
+pandas>=2.2.0
+numpy>=1.26.1
+matplotlib>=3.8.0
+scipy>=1.16.1
+seaborn>=0.13.0
+
+# Jupyter and interactive notebooks
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipython>=8.18.0
+
+# Note: Quarto is best installed as a standalone CLI tool from https://quarto.org/docs/get-started/installation.html
+# The PyPI quarto package is a minimal wrapper and should not be used for rendering slides
+# Instead, use: quarto install-tinytex (for PDF) and quarto preview/render commands
