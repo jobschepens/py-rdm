@@ -87,6 +87,9 @@ Reference extensions for Python development:
 - Linux: `apt install python3`
 - **Optional**: Use [pyenv](https://github.com/pyenv/pyenv) for multiple versions
 
+---
+
+
 ### Verify Installation
 
 Open terminal and run:
@@ -187,6 +190,7 @@ OPENAI_API_KEY=sk-...
 ANTHROPIC_API_KEY=sk-ant-...
 ```
 
+---
 
 ### Install VS Code Extension
 
@@ -206,6 +210,9 @@ Popular options for different workflows:
 ### Optional MCP Servers
 
 Advanced: Model Context Protocol for complex workflows. Not required for basic setup.
+
+---
+
 
 ### Cloud Alternatives: Overview
 
