@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"name": "pyws",
+			"path": "."
+		},
+		{
+			"name": "talks",
+			"path": "../talks"
+		},
+		{
+			"name": "temp",
+			"path": "../temp"
+		},
+		{
+			"path": "../clausemate"
+		},
+		{
+			"path": "../clausemate-private-data"
+		},
+		{
+			"path": "G:/My Drive/sci/Programming/play"
+		},
+		{
+			"path": "../test"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.html": "liquid",
+			"*.md": "markdown"
+		},
+		"git.confirmSync": false,
+		"yaml.format.enable": true,
+		"yaml.validate": true,
+		"yaml.hover": true,
+		"yaml.completion": true,
+		"terminal.integrated.defaultProfile.windows": "PowerShell",
+		"powershell.cwd": "pyws"
+	}
+}

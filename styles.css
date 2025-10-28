@@ -1,0 +1,98 @@
+/* Information-dense presentation styling */
+
+/* Reduce overall spacing - maximum density */
+.reveal {
+  margin-bottom: 0.2em;
+  margin-top: 0.1em;
+}
+
+.reveal p {
+  margin: 0.15em 0;
+}
+
+.reveal ul,
+.reveal ol {
+  margin: 0.1em 0;
+}
+
+.reveal li {
+  margin-bottom: 0.05em;
+}
+
+.reveal ul ul,
+.reveal ol ol {
+  font-size: 0.95em;
+  margin-top: 0;
+  margin-bottom: 0.05em;
+}
+.reveal {
+  font-size: 14px;
+}
+
+.reveal h1 {
+  font-size: 2.2em;
+}
+
+.reveal h2 {
+  font-size: 1.7em;
+}
+
+.reveal h3 {
+  font-size: 1.3em;
+}
+
+.reveal pre {
+  width: 100%;
+  font-size: 0.55em;
+  margin: 0.1em 0;
+  line-height: 1.3;
+}
+
+.reveal code {
+  padding: 0.1em 0.2em;
+  font-size: 0.95em;
+}
+
+.reveal table {
+  font-size: 0.75em;
+  margin: 0.2em auto;
+}
+
+.reveal ul,
+.reveal ol {
+  margin: 0.2em 0;
+}
+
+.reveal li {
+  margin-bottom: 0.1em;
+}
+
+/* Remove extra slide spacing */
+.reveal .slides {
+  padding: 0;
+}
+
+.reveal .slides section {
+  padding: 1em;
+}
+
+/* Dense list styling */
+.reveal ul ul,
+.reveal ol ol {
+  font-size: 0.95em;
+  margin-top: 0;
+}
+
+/* Reduce speaker notes margins */
+.reveal .notes {
+  font-size: 0.9em;
+}
+
+/* Table styling */
+.reveal table thead {
+  border-bottom: 2px solid;
+}
+
+.reveal table tbody tr:nth-child(2n) {
+  background: rgba(0, 0, 0, 0.05);
+}

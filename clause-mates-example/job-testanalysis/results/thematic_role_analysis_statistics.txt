@@ -1,0 +1,24 @@
+PRONOUN TYPE vs CLAUSE MATE THEMATIC ROLE - STATISTICAL ANALYSIS
+================================================================================
+
+CHI-SQUARE TEST OF INDEPENDENCE
+--------------------------------------------------------------------------------
+Chi-square statistic: 1.1541
+Degrees of freedom: 1
+P-value: 0.282696
+Cramér's V (effect size): 0.0297
+
+FISHER'S EXACT TEST
+--------------------------------------------------------------------------------
+Odds ratio: 1.1665
+P-value (two-tailed): 0.257115
+
+HYPOTHESIS TESTING
+--------------------------------------------------------------------------------
+H1: Personal pronouns with Patient/Recipient: 39.42%
+H1: Personal pronouns with Agent: 60.58%
+H1: Result: NOT SUPPORTED
+
+H2: Demonstrative pronouns with Agent: 64.19%
+H2: Demonstrative pronouns with Patient/Recipient: 35.81%
+H2: Result: SUPPORTED
