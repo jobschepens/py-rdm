@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   build-deploy:
@@ -34,9 +35,12 @@ jobs:
           pip install jupyter
           pip install -r requirements.txt
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Render slides to HTML
+        run: quarto render slides.qmd --to html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          cname: false
