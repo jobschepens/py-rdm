@@ -101,11 +101,11 @@ pip --version       # Package manager version
 
 ### Clone Repository & Git
 
-These slides as well as two datasets are in a public repo called 'pyws' on my GitHub Account 'jobschepens'. You can clone these files using the command line: 
+These slides as well as two datasets are in a public repo called 'py-rdm' on my GitHub Account 'jobschepens'. You can clone these files using the command line: 
 
 ```bash
-git clone https://github.com/jobschepens/pyws.git
-cd pyws
+git clone https://github.com/jobschepens/py-rdm.git
+cd py-rdm
 ```
 
 Before cloning, make sure `git` is installed on your system. Open your terminal and navigate to the directory where you want to store the repository (e.g., `C:\GitHub` on Windows or `~/projects` on macOS/Linux). You can also use GitHub Desktop if you prefer a graphical interface.
@@ -139,7 +139,7 @@ Installs: **pandas** (data), **numpy** (computing), **matplotlib** (visualizatio
 
 ### Verify in VS Code
 
-1. Open VS Code, open `pyws` folder
+1. Open VS Code, open `py-rdm` folder
 2. Terminal: `Ctrl+`` (backtick) → Activate venv
 3. Run verification:
    ```bash
