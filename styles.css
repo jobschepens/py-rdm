@@ -1,4 +1,4 @@
-/* Information-dense presentation styling */
+/* Information-dense presentation styling with modern enhancements */
 
 /* Reduce overall spacing - maximum density */
 .reveal {
@@ -25,27 +25,60 @@
   margin-top: 0;
   margin-bottom: 0.05em;
 }
+
 .reveal {
   font-size: 14px;
 }
 
 .reveal h1 {
   font-size: 2.2em;
+  color: #64b5f6;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
 }
 
 .reveal h2 {
   font-size: 1.7em;
+  color: #81c784;
+  font-weight: 600;
+  border-bottom: 2px solid #81c784;
+  padding-bottom: 0.3em;
 }
 
 .reveal h3 {
   font-size: 1.3em;
+  color: #ffb74d;
+  font-weight: 600;
 }
 
+/* Code blocks with better styling */
 .reveal pre {
   width: 100%;
   font-size: 0.55em;
   margin: 0.1em 0;
   line-height: 1.3;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.8em;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.reveal code {
+  background: rgba(100, 181, 246, 0.2);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Better list styling */
+.reveal ul li::marker {
+  color: #64b5f6;
+}
+
+/* Slide number styling */
+.reveal .slide-number {
+  color: #64b5f6;
+  font-size: 0.8em;
 }
 
 .reveal code {

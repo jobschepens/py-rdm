@@ -4,9 +4,9 @@ subtitle: "with VS Code and LLMs"
 author: "Workshop"
 format:
   revealjs:
-    theme: default
-    transition: none
-    background-transition: none
+    theme: dark
+    transition: slide
+    background-transition: slide
     height: 900
     width: 1600
     margin: 0.05
