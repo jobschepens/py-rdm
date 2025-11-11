@@ -4,33 +4,28 @@ subtitle: "with VS Code and LLMs"
 author: "Workshop"
 format:
   revealjs:
-    theme: dark
+    theme: [dark, styles.css]
     transition: slide
     background-transition: slide
     height: 900
     width: 1600
     margin: 0.05
     embed-resources: true
-    # Information-dense styling
     slide-number: c/t
-    hash: false  # Disable URL hash tracking if not needed
-    history: false  # Disable browser history tracking
-    # Allow smaller text for reference material
-    css: 
-      - styles.css
-  # PDF export for reference material
+    hash: false
+    history: false
+    footer: "py-rdm • University of Cologne"
   pdf:
     documentclass: article
     margin-top: 0.5in
     margin-bottom: 0.5in
     margin-left: 0.75in
     margin-right: 0.75in
-    fontsize: 10pt
+    fontsize: 11pt
     table-of-contents: true
     lof: false
     lot: false
     pdf-engine: lualatex
-    keep-tex: false  # Don't keep intermediate .tex files
 ---
 
 <!-- 
