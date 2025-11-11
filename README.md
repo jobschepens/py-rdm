@@ -14,7 +14,7 @@ This workshop illustrates some modern Python development skills for linguistic r
 - **Interactive development** with Jupyter notebooks and VS Code
 - **Statistical analysis** for linguistic data
 - **Large Language Models (LLMs)** for code assistance and documentation
-- **Git and GitHub** for version control and collaboration
+- **Git and GitLab** for version control and collaboration
 - **Reproducible workflows** with virtual environments and dependency management
 
 ---
@@ -43,7 +43,7 @@ This workshop illustrates some modern Python development skills for linguistic r
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/jobschepens/py-rdm.git
+git clone git@gitlab.git.nrw:jschepen/py-rdm.git
 cd py-rdm
 ```
 
