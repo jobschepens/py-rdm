@@ -1,84 +1,219 @@
-/* Information-dense presentation styling with modern enhancements */
+/*-- scss:defaults --*/
+/* Modern, Professional Presentation Styling */
 
-/* Reduce overall spacing - maximum density */
+/*-- scss:rules --*/
+/* Base reveal styling */
 .reveal {
-  margin-bottom: 0.2em;
-  margin-top: 0.1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+}
+
+/* Overall text size and spacing */
+.reveal {
+  font-size: 16px;
 }
 
 .reveal p {
-  margin: 0.15em 0;
+  margin: 0.5em 0;
+  line-height: 1.6;
 }
 
 .reveal ul,
 .reveal ol {
-  margin: 0.1em 0;
+  margin: 0.5em 0;
+  display: block;
 }
 
 .reveal li {
-  margin-bottom: 0.05em;
+  margin-bottom: 0.3em;
+  line-height: 1.5;
 }
 
-.reveal ul ul,
-.reveal ol ol {
-  font-size: 0.95em;
-  margin-top: 0;
-  margin-bottom: 0.05em;
-}
-
-.reveal {
-  font-size: 14px;
+/* Heading styles with modern colors */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .reveal h1 {
-  font-size: 2.2em;
-  color: #64b5f6;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  font-weight: 700;
+  font-size: 2.8em;
+  color: #58a6ff;
+  text-shadow: 0 4px 12px rgba(88, 166, 255, 0.3);
+  margin-bottom: 0.4em;
+}
+
+.reveal .subtitle {
+  color: #79c0ff;
+  font-size: 1.4em;
+  font-weight: 400;
 }
 
 .reveal h2 {
-  font-size: 1.7em;
-  color: #81c784;
-  font-weight: 600;
-  border-bottom: 2px solid #81c784;
+  font-size: 2.2em;
+  color: #58a6ff;
+  border-bottom: 3px solid #58a6ff;
   padding-bottom: 0.3em;
+  margin-bottom: 0.5em;
 }
 
 .reveal h3 {
-  font-size: 1.3em;
-  color: #ffb74d;
-  font-weight: 600;
+  font-size: 1.6em;
+  color: #79c0ff;
+  margin-bottom: 0.3em;
 }
 
-/* Code blocks with better styling */
+.reveal h4 {
+  font-size: 1.3em;
+  color: #a0d8ff;
+}
+
+/* Code styling */
 .reveal pre {
   width: 100%;
-  font-size: 0.55em;
-  margin: 0.1em 0;
-  line-height: 1.3;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 0.8em;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 0.65em;
+  margin: 1em 0;
+  line-height: 1.4;
+  background: rgba(13, 17, 23, 0.8);
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  overflow: auto;
 }
 
 .reveal code {
-  background: rgba(100, 181, 246, 0.2);
-  padding: 0.1em 0.3em;
-  border-radius: 3px;
-  font-family: 'Courier New', monospace;
+  background: rgba(88, 166, 255, 0.15);
+  color: #79c0ff;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: 'Courier New', 'Monaco', monospace;
+  font-weight: 500;
 }
 
-/* Better list styling */
+.reveal pre code {
+  background: none;
+  color: #c9d1d9;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* List styling */
 .reveal ul li::marker {
-  color: #64b5f6;
+  color: #58a6ff;
+  font-weight: bold;
 }
 
-/* Slide number styling */
+.reveal ol li::marker {
+  color: #79c0ff;
+  font-weight: bold;
+}
+
+/* Links */
+.reveal a {
+  color: #58a6ff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.reveal a:hover {
+  color: #79c0ff;
+  border-bottom-color: #79c0ff;
+  text-decoration: none;
+}
+
+/* Tables */
+.reveal table {
+  margin: 1em auto;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.reveal table thead {
+  background: rgba(88, 166, 255, 0.1);
+}
+
+.reveal table thead th {
+  color: #58a6ff;
+  padding: 0.8em 1em;
+  border-bottom: 2px solid #58a6ff;
+  font-weight: 600;
+}
+
+.reveal table tbody td {
+  padding: 0.6em 1em;
+  border-bottom: 1px solid #30363d;
+  color: #c9d1d9;
+}
+
+.reveal table tbody tr:hover {
+  background: rgba(88, 166, 255, 0.05);
+}
+
+/* Blockquote */
+.reveal blockquote {
+  background: rgba(88, 166, 255, 0.1);
+  border-left: 4px solid #58a6ff;
+  padding: 1em 1.5em;
+  font-style: italic;
+  color: #8b949e;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
+/* Slide footer */
 .reveal .slide-number {
-  color: #64b5f6;
-  font-size: 0.8em;
+  color: #58a6ff;
+  font-size: 0.75em;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.4em 0.8em;
+  border-radius: 4px;
+  right: 1em;
+  bottom: 1em;
+}
+
+/* Presentation-mode controls */
+.reveal .controls {
+  color: #58a6ff;
+}
+
+.reveal .controls button:hover {
+  color: #79c0ff;
+}
+
+/* Progress bar */
+.reveal .progress {
+  background: rgba(88, 166, 255, 0.3);
+  height: 3px;
+}
+
+.reveal .progress span {
+  background: #58a6ff;
+  box-shadow: 0 0 10px #58a6ff;
+}
+
+/* Speaker notes */
+.reveal .speaker-notes {
+  color: #8b949e;
+}
+
+/* High-density layout for reference material */
+.reveal .dense {
+  font-size: 0.85em;
+}
+
+.reveal .dense p {
+  margin: 0.2em 0;
+}
+
+.reveal .dense li {
+  margin-bottom: 0.1em;
 }
 
 .reveal code {
@@ -129,3 +264,4 @@
 .reveal table tbody tr:nth-child(2n) {
   background: rgba(0, 0, 0, 0.05);
 }
+
