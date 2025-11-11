@@ -25,7 +25,14 @@ format:
     table-of-contents: true
     lof: false
     lot: false
-    pdf-engine: lualatex
+    # Use XeLaTeX for better font handling on CI/runners; fallback to lualatex if unavailable
+    pdf-engine: xelatex
+    # Ensure required fonts/packages are available via header-includes
+    header-includes:
+      - | 
+        \usepackage{fontspec}
+        \usepackage{lmodern}
+        \usepackage[T1]{fontenc}
 ---
 
 <!-- 
