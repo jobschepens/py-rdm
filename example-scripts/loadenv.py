@@ -10,3 +10,4 @@ load_dotenv("/path/to/.env")
 
 # Option 3: Without dotenv (manual parsing)
 api_key = os.getenv("SAIA_API_KEY")  # Requires .env in PATH or shell export
+
