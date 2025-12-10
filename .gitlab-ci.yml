@@ -15,6 +15,7 @@ build-slides:
   image: ubuntu:latest
   
   before_script:
+    # use server
     - apt-get update && apt-get install -y python3 python3-pip python3-venv curl wget
     - wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.450/quarto-1.3.450-linux-amd64.deb
     - apt-get install -y ./quarto-1.3.450-linux-amd64.deb
