@@ -29,7 +29,7 @@ format:
     pdf-engine: xelatex
     # Ensure required fonts/packages are available via header-includes
     header-includes:
-      - | 
+      - |
         \usepackage{fontspec}
         \usepackage{lmodern}
         \usepackage[T1]{fontenc}
